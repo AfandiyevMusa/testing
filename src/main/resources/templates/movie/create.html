@@ -121,14 +121,6 @@
             <input type="checkbox" th:id="'actor_' + ${actor.id}" th:name="actors" th:value="${actor.id}">
             <label th:for="'actor_' + ${actor.id}" th:text="${actor.name}"></label>
         </div>
-        <div class="choices" th:each="actor : ${actors}">
-            <input type="checkbox" th:id="'actor_' + ${actor.id}" th:name="actors" th:value="${actor.id}">
-            <label th:for="'actor_' + ${actor.id}" th:text="${actor.name}"></label>
-        </div>
-        <div class="choices" th:each="actor : ${actors}">
-            <input type="checkbox" th:id="'actor_' + ${actor.id}" th:name="actors" th:value="${actor.id}">
-            <label th:for="'actor_' + ${actor.id}" th:text="${actor.name}"></label>
-        </div>
     </div>
 
     <input type="submit" value="Create">
